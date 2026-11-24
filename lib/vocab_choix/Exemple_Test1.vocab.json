@@ -1,0 +1,180 @@
+{
+  "format": "vocab-pack",
+  "version": "1.0",
+  "meta": {
+    "id": "geii1-test1",
+    "title": "Vocabulaire du Test 1",
+    "source_lang": "en",
+    "target_lang": "fr",
+    "course": "Anglais – BUT GEII 1re année",
+    "source_file": "Vocabulaire_Test_1.pdf",
+    "created": "2026-11-02"
+  },
+  "themes": [
+    {
+      "id": "ta1",
+      "title": "TA1 – Théorèmes de base de l'électronique (TP)",
+      "order": 1,
+      "entries": [
+        {
+          "id": "ta1.voltage",
+          "term": "voltage",
+          "term_key": "voltage",
+          "translation": "tension",
+          "pos": "noun",
+          "stress": "10",
+          "context": "Set the voltage to 5 V before connecting the resistor.",
+          "highlight": "voltage"
+        },
+        {
+          "id": "ta1.kirchhoffs-voltage-law",
+          "term": "Kirchhoff's voltage law",
+          "term_key": "kirchhoffs-voltage-law",
+          "translation": "loi des mailles",
+          "pos": "phrase",
+          "stress": "20 10 2",
+          "context": "Kirchhoff's voltage law tells us that U equals U1 plus U2 in this loop.",
+          "highlight": "Kirchhoff's voltage law"
+        },
+        {
+          "id": "ta1.resistor",
+          "term": "resistor",
+          "term_key": "resistor",
+          "translation": "résistance (composant)",
+          "pos": "noun",
+          "stress": "010",
+          "context": "The trainer board includes resistors ranging from 10 Ω to 220 kΩ.",
+          "highlight": "resistors"
+        }
+      ]
+    },
+    {
+      "id": "cap",
+      "title": "Capacitors – Vocabulary",
+      "order": 2,
+      "include": ["ta1.resistor", "ta1.voltage"],
+      "entries": [
+        {
+          "id": "cap.dielectric",
+          "term": "dielectric",
+          "term_key": "dielectric",
+          "translation": "diélectrique",
+          "pos": "noun",
+          "stress": "2010",
+          "context": "The energy of a capacitor is stored in its dielectric.",
+          "highlight": "dielectric"
+        },
+        {
+          "id": "cap.tangent",
+          "term": "tangent",
+          "term_key": "tangent",
+          "translation": "tangente",
+          "pos": "noun",
+          "stress": "10",
+          "sense": "tangente à une courbe",
+          "context": "The tangent at the origin crosses the final value after one time constant.",
+          "highlight": "tangent"
+        }
+      ],
+      "read_aloud": [
+        {
+          "written": "W = ½ CU²",
+          "fr": "W égale un demi C U au carré",
+          "en": "W equals one half C U squared."
+        }
+      ]
+    },
+    {
+      "id": "trigo",
+      "title": "Trigonometry – Vocabulary",
+      "order": 3,
+      "include": ["cap.tangent"],
+      "entries": [
+        {
+          "id": "trigo.tangent-function",
+          "term": "tangent",
+          "term_key": "tangent",
+          "translation": "tangente",
+          "pos": "noun",
+          "stress": "10",
+          "sense": "fonction tangente",
+          "context": "The tangent of an angle is its sine divided by its cosine.",
+          "highlight": "tangent"
+        },
+        {
+          "id": "trigo.anticlockwise",
+          "term": "anticlockwise",
+          "term_key": "anticlockwise",
+          "translation": "sens trigonométrique (direct)",
+          "pos": "adv",
+          "stress": "2010 / 2010",
+          "note": "Américain : counterclockwise.",
+          "context": "Positive angles are measured anticlockwise.",
+          "highlight": "anticlockwise"
+        }
+      ]
+    },
+    {
+      "id": "kicad",
+      "title": "Vocabulaire KiCad",
+      "order": 4,
+      "entries": [
+        {
+          "id": "kicad.footprint",
+          "term": "footprint",
+          "term_key": "footprint",
+          "translation": "empreinte",
+          "pos": "noun",
+          "stress": "10",
+          "context": "Each component needs a footprint that matches its physical package.",
+          "highlight": "footprint"
+        }
+      ]
+    },
+    {
+      "id": "wims",
+      "title": "Vocabulaire WIMS",
+      "order": 5,
+      "entries": [
+        {
+          "id": "wims.to-submit",
+          "term": "to submit",
+          "term_key": "to-submit",
+          "translation": "valider, envoyer",
+          "pos": "verb",
+          "stress": "01",
+          "context": "Don't forget to submit your answer.",
+          "highlight": "submit"
+        }
+      ]
+    },
+    {
+      "id": "npr",
+      "title": "Vocabulaire NPR – AI regulation",
+      "order": 6,
+      "entries": [
+        {
+          "id": "npr.bipartisan",
+          "term": "bipartisan",
+          "term_key": "bipartisan",
+          "translation": "transpartisan(e) (soutenu par les deux grands partis)",
+          "pos": "adj",
+          "stress": "2001",
+          "context": "The law passed with strong bipartisan support.",
+          "highlight": "bipartisan"
+        },
+        {
+          "id": "npr.spin-ones-wheels",
+          "term": "spin one's wheels",
+          "term_key": "spin-ones-wheels",
+          "translation": "tourner en rond, piétiner",
+          "pos": "idiom",
+          "stress": "1 0 1",
+          "context": "We spent the whole meeting spinning our wheels and decided nothing.",
+          "highlight": "spinning our wheels"
+        }
+      ]
+    }
+  ],
+  "grammar": []
+}
